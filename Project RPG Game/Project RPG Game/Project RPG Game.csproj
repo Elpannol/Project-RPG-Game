@@ -52,6 +52,10 @@
     <Compile Include="Forms\CharacterForm.Designer.cs">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\Character.cs" />
+    <Compile Include="Models\Enemy.cs" />
+    <Compile Include="Models\NPC.cs" />
+    <Compile Include="Models\Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\CharacterForm.resx">
@@ -82,7 +86,6 @@
   <ItemGroup>
     <Folder Include="Character code\" />
     <Folder Include="Images\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
