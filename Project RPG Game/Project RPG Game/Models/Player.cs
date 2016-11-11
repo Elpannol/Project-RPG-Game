@@ -14,9 +14,9 @@ namespace Project_RPG_Game.Models
         public int Intelligence { get; set; }
         public int Wisdom { get; set; }
         public int Charisma { get; set; }
-        public readonly string Race;
+        public readonly Race Race;
 
-        public Player(string name, string race, int stenght, int agility, int endurance , int intelligence, int wisdom, int charisma) : base(name)
+        public Player(string name, Race race, int stenght, int agility, int endurance , int intelligence, int wisdom, int charisma) : base(name)
         {
             Strenght = stenght;
             Agility = agility;

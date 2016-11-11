@@ -56,6 +56,8 @@
     <Compile Include="Models\Enemy.cs" />
     <Compile Include="Models\NPC.cs" />
     <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\Race.cs" />
+    <Compile Include="Models\Stats.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\CharacterForm.resx">
