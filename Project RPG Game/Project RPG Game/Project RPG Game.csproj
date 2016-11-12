@@ -52,6 +52,12 @@
     <Compile Include="Forms\CharacterForm.Designer.cs">
       <DependentUpon>CharacterForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\WorldForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WorldForm.Designer.cs">
+      <DependentUpon>WorldForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Character.cs" />
     <Compile Include="Models\Enemy.cs" />
     <Compile Include="Models\NPC.cs" />
