@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Project_RPG_Game.Models
 {
-    class Character
+    abstract class Character
     {
         public readonly string Name;
         public Character(string name)
         {
             Name = name;
         }
+
+        public abstract int RollDice(int sides);
     }
+
 }

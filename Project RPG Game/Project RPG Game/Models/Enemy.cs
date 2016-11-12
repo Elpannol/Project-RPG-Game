@@ -11,5 +11,12 @@ namespace Project_RPG_Game.Models
         public Enemy(string name) : base(name)
         {
         }
+
+        public override int RollDice(int sides)
+        {
+            Random random = new Random();
+            int value = random.Next(sides) + 1;
+            return value;
+        }
     }
 }

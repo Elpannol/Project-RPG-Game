@@ -26,5 +26,12 @@ namespace Project_RPG_Game.Models
             Charisma = charisma;
             Race = race;
         }
+
+        public override int RollDice(int sides)
+        {
+            Random random = new Random();
+            int value = random.Next(sides) + 1;
+            return value;
+        }
     }
 }
